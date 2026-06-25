@@ -38,6 +38,12 @@ Full report: `Self_Balancing_Robot_Report.pdf`
 ## Simulation
 See `simulation_video.mp4` for the robot balancing in ROS simulation.
 
+## Limitation
+Robot achieves initial balance in simulation but drifts after a short duration.
+Exact cause not fully isolated yet, possible factors include PID gain tuning,
+sensor noise, or simulation parameters. Listed as future work for further
+debugging and tuning.
+
 ## Tools Used
 - ROS (Robot Operating System)
 - PID Control Theory
